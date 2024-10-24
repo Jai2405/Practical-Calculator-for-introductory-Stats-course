@@ -27,9 +27,20 @@ function calculate() {
     input = input.replace(/pi/gi, Math.PI);
     input = input.replace(/e/gi, Math.E);
 
-    // Regex for combinations (nCr) and permutations (nPr)
+    // Regex for combinations (nCr) and permutations (nPr) and factorial (n!)
     const combinationRegex = /(\d+)[cC](\d+)/g;
     const permutationRegex = /(\d+)[pP](\d+)/g;
+    const factorialRegex = /(\d+)!/g;
+
+    // Replace all factorials with their results
+    input = input.replace(factorialRegex, function (match, n) {
+        n = parseInt(n, 10);
+        if (n >= 0) {
+            return factorial(n);
+        } else {
+            return "InvalidExpression"; // Handle invalid factorials
+        }
+    });
 
     // Replace all combinations with their results
     input = input.replace(combinationRegex, function (match, n, r) {
