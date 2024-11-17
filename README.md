@@ -1,14 +1,23 @@
 # Practical Calculator for Introductory Statistics
 
-## Overview
-A user-friendly web application designed to streamline calculations for students in introductory statistics courses. Recognizing that traditional scientific calculators can be time-consuming and cumbersome when using complex functions, this tool offers a simpler and more efficient way to perform essential calculations.
+A lightweight, web-based calculator designed to simplify complex statistical calculations, specifically tailored for introductory statistics courses. It eliminates the hassle of manual input and reduces dependency on traditional scientific calculators for routine tasks like factorials, permutations, and combinations.
 
-## Key Features
-- **Quick Calculations:** Instantly compute permutations (nPr) and combinations (nCr) without navigating through multiple functions.
-- **Factorial Support:** Easily calculate factorials of non-negative integers with a straightforward input.
-- **Basic Arithmetic Operations:** Perform addition, subtraction, multiplication, division, and exponentiation seamlessly.
-- **Built-in Mathematical Constants:** Effortlessly incorporate π (pi) and e (Euler's number) into your calculations.
-- **Error Handling:** Receive clear feedback for invalid expressions, guiding you to correct any mistakes.
+## Features
 
+- **Factorial Calculation:** Compute factorials of numbers directly (e.g., entering `5!` returns `120`).
+- **Permutations and Combinations:** Simplified computation for:
+  - \( nPr = \frac{n!}{(n-r)!} \)
+  - \( nCr = \frac{n!}{r!(n-r)!} \)
+- **User-Friendly Interface:** An intuitive design that prioritizes ease of use.
+- **Responsive Design:** Compatible with desktops, tablets, and mobile phones.
 
-This project aims to enhance the learning experience for students by providing a practical and efficient tool for performing essential statistical calculations quickly and accurately.
+## Motivation
+
+Performing statistical calculations using traditional scientific calculators can be time-consuming and prone to errors. This project bridges that gap by providing a straightforward, accessible tool for students and educators.
+
+## Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
