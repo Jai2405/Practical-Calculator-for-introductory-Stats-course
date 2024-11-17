@@ -4,7 +4,7 @@ A lightweight, web-based calculator designed to simplify complex statistical cal
 
 ## Features
 
-- **Probability Tools Simplified** Simplified computation fo rPermutations, Combinations and Factorials (e.g., entering `5!` returns `120`).
+- **Probability Tools Simplified** Simplified computation fo rPermutations, Combinations and Factorials (e.g., entering `5c3!` returns `10`).
 - **User-Friendly Interface:** An intuitive design that prioritizes ease of use.
 - **Responsive Design:** Compatible with desktops, tablets, and mobile phones.
 
