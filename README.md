@@ -10,14 +10,12 @@ A lightweight, web-based calculator designed to simplify complex statistical cal
 
 ## Screenshots
 
-### Home Page
-![Home Page](path/to/image1.png)
-
 ### Example Calculation
-![Example Calculation](path/to/image2.png)
+![Home Page](assets/images/homepage.png)
 
-### Responsive View
-![Responsive View](path/to/image3.png)
+### Documentation
+![Example Calculation](assets/images/documentation.png)
+
 
 ## Motivation
 
