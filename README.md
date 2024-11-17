@@ -15,9 +15,4 @@ A lightweight, web-based calculator designed to simplify complex statistical cal
 
 Performing statistical calculations using traditional scientific calculators can be time-consuming and prone to errors. This project bridges that gap by providing a straightforward, accessible tool for students and educators.
 
-## Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
