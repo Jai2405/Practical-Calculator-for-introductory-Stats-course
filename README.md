@@ -8,6 +8,17 @@ A lightweight, web-based calculator designed to simplify complex statistical cal
 - **User-Friendly Interface:** An intuitive design that prioritizes ease of use.
 - **Responsive Design:** Compatible with desktops, tablets, and mobile phones.
 
+## Screenshots
+
+### Home Page
+![Home Page](path/to/image1.png)
+
+### Example Calculation
+![Example Calculation](path/to/image2.png)
+
+### Responsive View
+![Responsive View](path/to/image3.png)
+
 ## Motivation
 
 Performing statistical calculations using traditional scientific calculators can be time-consuming and prone to errors. This project bridges that gap by providing a straightforward, accessible tool for students and educators.
